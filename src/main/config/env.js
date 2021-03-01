@@ -1,6 +1,6 @@
 module.exports = {
   mongoURL: process.env.MONGO_URL || 'mongodb://localhost:27017/movies-api',
-  port: process.env.MY_PORT || 8000,
+  port: process.env.PORT || 8000,
   omdbApiURL: process.env.OMDB_API_URL || 'http://www.omdbapi.com',
   omdbApiKey: process.env.OMDB_API_TOKEN || 'faf7e5bb'
 }
