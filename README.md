@@ -28,7 +28,7 @@ Public Url: https://express-movies-api.herokuapp.com
 Local Url: http://localhost:8000
 * Get single movie detail
   ~~~bash
-  GET {{URL}}/api/v1/movies/detail
+  GET {{URL}}/movies/detail
   ~~~
   query:
   ~~~bash
@@ -36,7 +36,7 @@ Local Url: http://localhost:8000
   ~~~
 * Search movie
   ~~~bash
-  GET {{URL}}/api/v1/movies/search
+  GET {{URL}}/movies/search
   ~~~
   query:
   ~~~bash
@@ -45,4 +45,4 @@ Local Url: http://localhost:8000
   ~~~
 
 ## Example
-* https://express-movies-api.herokuapp.com/api/v1/movies/search?s=batman&page=1
+* https://express-movies-api.herokuapp.com/movies/search?s=batman&page=1
